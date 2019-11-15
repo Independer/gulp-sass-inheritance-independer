@@ -5,14 +5,14 @@ var _ = require('lodash');
 var fs = require('fs');
 var gutil = require('gulp-util');
 var sassGraph = require('sass-graph');
-var PLUGIN_NAME = 'gulp-sass-inheritance';
+var PLUGIN_NAME = 'gulp-sass-inheritance-independer';
 
 var stream;
 
 function gulpSassInheritance(options) {
   options = options || {};
   if (typeof options.dir !== 'string') {
-    throw new Error('gulp-sass-inheritance: Missing dir in options');
+    throw new Error('gulp-sass-inheritance-independer: Missing dir in options');
   }
 
   var files = [];
