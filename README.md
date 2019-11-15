@@ -1,22 +1,18 @@
-# gulp-sass-inheritance
-
-[![npm](https://img.shields.io/npm/v/gulp-sass-inheritance.svg)](https://www.npmjs.com/package/gulp-sass-inheritance)
-[![npm](https://img.shields.io/npm/dm/gulp-sass-inheritance.svg)](https://www.npmjs.com/package/gulp-sass-inheritance)
-![travis](https://api.travis-ci.org/berstend/gulp-sass-inheritance.svg?branch=master)
-[![Greenkeeper badge](https://badges.greenkeeper.io/berstend/gulp-sass-inheritance.svg)](https://greenkeeper.io/)
-![deps](https://david-dm.org/berstend/gulp-sass-inheritance.svg)
-
+# gulp-sass-inheritance-independer
 
 > Rebuild a sass/scss file with other files that have imported this file
 
 * Based on [gulp-jade-inheritance](https://github.com/juanfran/gulp-jade-inheritance)
 * Uses [sass-graph](https://github.com/xzyfer/sass-graph) for the heavy lifting
+* Updated dependencies to work with Node 12 and Gulp 4
 
 Useful when working on a larger project: Styles can be (re-)built incrementally on a per-need basis.
 
 
 ## Changelog
 
+#### v1.0.0 (2019-15-11)
+Forked and updated dependencies to work with Node 12 and Gulp 4
 
 #### v1.1.0 (2017-05-13)
 
@@ -34,10 +30,10 @@ Useful when working on a larger project: Styles can be (re-)built incrementally 
 
 ```bash
 # Using npm
-npm install gulp-sass-inheritance --save
+npm install gulp-sass-inheritance-independer --save
 
 # Using yarn
-yarn add gulp-sass-inheritance
+yarn add gulp-sass-inheritance-independer
 ```
 
 
