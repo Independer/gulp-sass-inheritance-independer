@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:berstend/gulp-sass-inheritance.git"
+    "url": "git@github.com:nstrating/gulp-sass-inheritance-independer"
   },
   "keywords": [
     "gulpplugin",
@@ -19,12 +19,12 @@
     "sass-dependencies",
     "gulp-cached"
   ],
-  "author": "berstend & Juanfran Alcántara",
+  "author": "berstend & Juanfran Alcántara & nstrating",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/berstend/gulp-sass-inheritance/issues"
+    "url": "https://github.com/nstrating/gulp-sass-inheritance-independer/issues"
   },
-  "homepage": "https://github.com/berstend/gulp-sass-inheritance",
+  "homepage": "https://github.com/nstrating/gulp-sass-inheritance-independer",
   "dependencies": {
     "event-stream": "3.3.4",
     "gulp-util": "^3.0.8",
