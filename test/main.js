@@ -16,7 +16,7 @@ describe('gulp-sass-inheritance', function(done) {
     it('should throw without dir', function () {
       expect(function(){
         sassInheritance({ dir: undefined })
-      }).to.throw("gulp-sass-inheritance: Missing dir in options")
+      }).to.throw("gulp-sass-inheritance-independer: Missing dir in options")
     });
   });
 
